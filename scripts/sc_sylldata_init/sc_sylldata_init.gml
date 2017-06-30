@@ -2,10 +2,10 @@
 
 syll_vowel  = sc_load_syll("vowel.txt")
 syll_cons   = sc_load_syll("conson.txt")
-syll_common = sc_gen_syll_common()
-syll_common_reverse = sc_gen_syll_comrev()
-syll_triple = sc_gen_triple()
-syll_triple_reverse = sc_gen_triprev()
+syll_common = sc_make_syll_common()
+syll_common_reverse = sc_make_syll_comrev()
+syll_triple = sc_make_triple()
+syll_triple_reverse = sc_make_triprev()
 
 show_debug_message("... sorting array 1")
 syll_common = sc_syll_sort(syll_common)

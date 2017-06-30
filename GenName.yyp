@@ -50,7 +50,7 @@
             "Key": "219dd441-633b-48cf-b606-55466996b067",
             "Value": {
                 "id": "403faca6-f3e4-484d-9949-cd6de70b4f8a",
-                "resourcePath": "scripts\\sc_gen_syll_comrev\\sc_gen_syll_comrev.yy",
+                "resourcePath": "scripts\\sc_make_syll_comrev\\sc_make_syll_comrev.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "789eb15e-6b74-4a45-80ca-0c3ac1f9b7eb",
             "Value": {
                 "id": "ec9c223d-f168-46b8-9cfe-0fd64f6b77a5",
-                "resourcePath": "scripts\\sc_gen_triprev\\sc_gen_triprev.yy",
+                "resourcePath": "scripts\\sc_make_triprev\\sc_make_triprev.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -290,7 +290,7 @@
             "Key": "dec1c34e-2291-43a4-a270-f944f14c5905",
             "Value": {
                 "id": "33e47adb-2bd9-4994-a075-a45f95b8cdb8",
-                "resourcePath": "scripts\\sc_gen_syll_common\\sc_gen_syll_common.yy",
+                "resourcePath": "scripts\\sc_make_syll_common\\sc_make_syll_common.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -314,7 +314,7 @@
             "Key": "ea510395-26aa-4129-b0a1-c73154fa1f91",
             "Value": {
                 "id": "51a43bb8-523c-4952-b51a-3b0ebb961ca2",
-                "resourcePath": "scripts\\sc_gen_triple\\sc_gen_triple.yy",
+                "resourcePath": "scripts\\sc_make_triple\\sc_make_triple.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -379,7 +379,8 @@
         "2952908b-78c4-4358-8733-9aa5b0feea08",
         "0c2269ed-472b-477b-8b81-391d4336658d",
         "fba17adb-1add-451c-b21e-41353711c4bb",
-        "c33d6089-ea5b-4250-bfb3-dce65f0301c8"
+        "c33d6089-ea5b-4250-bfb3-dce65f0301c8",
+        "95c74887-7c1d-4034-ba4e-84e222939902"
     ],
     "tutorial": ""
 }
