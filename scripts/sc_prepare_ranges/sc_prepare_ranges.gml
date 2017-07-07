@@ -12,8 +12,8 @@ mx_triprev = sc_syll_getmax(syll_triple_reverse)
 
 /// Set syll_common ranges
 range_common = 0
-range_common[0] = mx_common*0.5
-range_common[mx_common] = mx_common*0.01
+range_common[0] = mx_common*0.1
+range_common[mx_common] = mx_common*0.05
 
 q = power(range_common[mx_common]/range_common[0], 1/(mx_common+1))
 show_message(string(q))
@@ -28,8 +28,8 @@ for (var i=1; i<=mx_common; i++) {
 
 /// Set syll_reverse ranges
 range_reverse = 0
-range_reverse[0] = mx_reverse*0.5
-range_reverse[mx_reverse] = mx_reverse*0.01
+range_reverse[0] = mx_reverse*0.1
+range_reverse[mx_reverse] = mx_reverse*0.05
 
 q = power(range_reverse[mx_reverse]/range_reverse[0], 1/(mx_reverse+1))
 show_message(string(q))
@@ -44,8 +44,8 @@ for (var i=1; i<=mx_reverse; i++) {
 
 /// Set syll_triple ranges
 range_triple = 0
-range_triple[0] = mx_triple*0.5
-range_triple[mx_triple] = mx_triple*0.01
+range_triple[0] = mx_triple*0.1
+range_triple[mx_triple] = mx_triple*0.05
 
 q = power(range_triple[mx_triple]/range_triple[0], 1/(mx_triple+1))
 show_message(string(q))
@@ -61,8 +61,8 @@ for (var i=1; i<=mx_triple; i++) {
 
 /// Set syll_triprev ranges
 range_triprev = 0
-range_triprev[0] = mx_triprev*0.5
-range_triprev[mx_triprev] = mx_triprev*0.01
+range_triprev[0] = mx_triprev*0.1
+range_triprev[mx_triprev] = mx_triprev*0.05
 
 q = power(range_triprev[mx_triprev]/range_triprev[0], 1/(mx_triprev+1))
 show_message(string(q))

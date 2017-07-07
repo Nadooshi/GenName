@@ -55,10 +55,34 @@
             }
         },
         {
+            "Key": "230a7229-e759-40e0-9a04-48816db727d7",
+            "Value": {
+                "id": "595f4fec-f6de-4557-8abc-30c676806558",
+                "resourcePath": "scripts\\sc_generate_syll_reverse\\sc_generate_syll_reverse.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "25aae7b7-9993-4229-a03f-39fdd176e531",
+            "Value": {
+                "id": "216a427b-47a3-4a6e-a48f-ca2394b0286a",
+                "resourcePath": "scripts\\sc_generate_syll_triple\\sc_generate_syll_triple.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2952908b-78c4-4358-8733-9aa5b0feea08",
             "Value": {
                 "id": "a62856a9-e987-4e9e-b017-8841df1d4207",
                 "resourcePath": "scripts\\sc_sylldata_load\\sc_sylldata_load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "378153f0-036e-435c-8271-da019d494518",
+            "Value": {
+                "id": "5899b31c-f3cd-460d-8a6a-933af3c3555d",
+                "resourcePath": "scripts\\sc_generate_syll_triple_reverse\\sc_generate_syll_triple_reverse.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -379,7 +403,11 @@
         "2952908b-78c4-4358-8733-9aa5b0feea08",
         "0c2269ed-472b-477b-8b81-391d4336658d",
         "fba17adb-1add-451c-b21e-41353711c4bb",
-        "c33d6089-ea5b-4250-bfb3-dce65f0301c8"
+        "c33d6089-ea5b-4250-bfb3-dce65f0301c8",
+        "95c74887-7c1d-4034-ba4e-84e222939902",
+        "230a7229-e759-40e0-9a04-48816db727d7",
+        "25aae7b7-9993-4229-a03f-39fdd176e531",
+        "378153f0-036e-435c-8271-da019d494518"
     ],
     "tutorial": ""
 }
