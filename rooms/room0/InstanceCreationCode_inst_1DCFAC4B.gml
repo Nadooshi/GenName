@@ -1,2 +1,2 @@
-caption = "new"
+caption = "Новый"
 script = sc_sylldata_init

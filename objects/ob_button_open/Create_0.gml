@@ -1,5 +1,5 @@
 /// @desc Init
 event_inherited()
 
-caption = "Open"
+caption = ""
 script = noone

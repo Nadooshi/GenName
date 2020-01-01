@@ -6,7 +6,7 @@ var filename = argument0
 var syll;
 
 var file;
-var s, n, len;
+var s, n;
 
 file = file_text_open_read(filename)
 n = 0

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "186d85a6-5be2-4bc0-86af-db678b4acbb1",
+            "Value": {
+                "id": "6baeb857-8dfc-49ef-aeed-305340915646",
+                "resourcePath": "scripts\\sc_gen_rev_syll_common\\sc_gen_rev_syll_common.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "219dd441-633b-48cf-b606-55466996b067",
             "Value": {
                 "id": "403faca6-f3e4-484d-9949-cd6de70b4f8a",
@@ -247,10 +255,26 @@
             }
         },
         {
+            "Key": "b5216932-2942-4da5-b09e-fcb925093f5f",
+            "Value": {
+                "id": "dc6a240d-aff4-4f49-96ff-8241f6d92699",
+                "resourcePath": "scripts\\sc_gen_rev_syll_triple\\sc_gen_rev_syll_triple.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bb6f858e-eeb3-4246-b2a3-dc8fff220d2e",
             "Value": {
                 "id": "d6cb2f5d-224d-4c85-bf90-ad6eba4e4de4",
                 "resourcePath": "scripts\\sc_sylldata_init\\sc_sylldata_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bc91ea52-4803-4ab1-a1c8-0ba2e266ddbc",
+            "Value": {
+                "id": "7cef3942-0279-44f1-ab3e-159d8970aa4c",
+                "resourcePath": "scripts\\sc_generate_syll_triple\\sc_generate_syll_triple.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -380,7 +404,10 @@
         "0c2269ed-472b-477b-8b81-391d4336658d",
         "fba17adb-1add-451c-b21e-41353711c4bb",
         "c33d6089-ea5b-4250-bfb3-dce65f0301c8",
-        "95c74887-7c1d-4034-ba4e-84e222939902"
+        "95c74887-7c1d-4034-ba4e-84e222939902",
+        "bc91ea52-4803-4ab1-a1c8-0ba2e266ddbc",
+        "b5216932-2942-4da5-b09e-fcb925093f5f",
+        "186d85a6-5be2-4bc0-86af-db678b4acbb1"
     ],
     "tutorial": ""
 }

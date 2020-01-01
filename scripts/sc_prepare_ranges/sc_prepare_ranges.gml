@@ -1,7 +1,7 @@
 /// @desc Prepare ranges for random
 
 
-var r, q, b;
+var q;
 
 mx_common  = sc_syll_getmax(syll_common)
 mx_reverse = sc_syll_getmax(syll_common_reverse)
@@ -16,7 +16,7 @@ range_common[0] = mx_common*0.5
 range_common[mx_common] = mx_common*0.01
 
 q = power(range_common[mx_common]/range_common[0], 1/(mx_common+1))
-show_message(string(q))
+//show_message(string(q))
 for (var i=1; i<=mx_common; i++) {
 	range_common[i] = range_common[i-1]*q
 }
@@ -32,7 +32,7 @@ range_reverse[0] = mx_reverse*0.5
 range_reverse[mx_reverse] = mx_reverse*0.01
 
 q = power(range_reverse[mx_reverse]/range_reverse[0], 1/(mx_reverse+1))
-show_message(string(q))
+//show_message(string(q))
 for (var i=1; i<=mx_reverse; i++) {
 	range_reverse[i] = range_reverse[i-1]*q
 }
@@ -48,7 +48,7 @@ range_triple[0] = mx_triple*0.5
 range_triple[mx_triple] = mx_triple*0.01
 
 q = power(range_triple[mx_triple]/range_triple[0], 1/(mx_triple+1))
-show_message(string(q))
+//show_message(string(q))
 for (var i=1; i<=mx_triple; i++) {
 	range_triple[i] = range_triple[i-1]*q
 }
@@ -65,7 +65,7 @@ range_triprev[0] = mx_triprev*0.5
 range_triprev[mx_triprev] = mx_triprev*0.01
 
 q = power(range_triprev[mx_triprev]/range_triprev[0], 1/(mx_triprev+1))
-show_message(string(q))
+//show_message(string(q))
 for (var i=1; i<=mx_triprev; i++) {
 	range_triprev[i] = range_triprev[i-1]*q
 }

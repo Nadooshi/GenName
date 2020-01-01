@@ -2,22 +2,22 @@
 
 var sl = "#"
 
-var r = random_range(0, range_common[mx_common])
+var r = random_range(0, range_triple[mx_triple])
 var ok = false
 // get randomized rating
-for (var i=0; i<mx_common; i++) {
-	if r<range_common[0] {
+for (var i=0; i<mx_triple; i++) {
+	if r<range_triple[0] {
 		r = i
 		ok = true
 		break
 	}
-	if r>=range_common[mx_common] {
+	if r>=range_triple[mx_triple] {
 		r = i
 		ok = true
 		break
 	}
 
-	if (r>=range_common[i]) and (r<range_common[i+1]) {
+	if (r>=range_triple[i]) and (r<range_triple[i+1]) {
 		r = i
 		ok = true
 		break
@@ -30,9 +30,9 @@ var resultSyll;
 
 if ok {
 	ok=false
-	for (i=0; i<array_height_2d(syll_common); i++) {
-		if syll_common[i, 1] >  r break
-		if syll_common[i, 1] == r {
+	for (i=0; i<array_height_2d(syll_triple); i++) {
+		if syll_triple[i, 1] >  r break
+		if syll_triple[i, 1] == r {
 			resultSyll[n] = i
 			ok = true
 			n++

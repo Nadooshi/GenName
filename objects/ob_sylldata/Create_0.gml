@@ -18,7 +18,7 @@ globalvar range_triple
 globalvar range_triprev
 
 var;
-
+randomize()
 sylldata_path = ""
 
 
