@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1969a19c-7c2c-42a1-969d-cb11b6dc2f6a",
+            "Value": {
+                "id": "e422be01-73e2-4b02-ac10-30cd34544944",
+                "resourcePath": "scripts\\sc_generate_serial\\sc_generate_serial.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "219dd441-633b-48cf-b606-55466996b067",
             "Value": {
                 "id": "403faca6-f3e4-484d-9949-cd6de70b4f8a",
@@ -84,6 +92,14 @@
                 "id": "051c630f-e09e-4fa4-ac1b-b4ee099eeffe",
                 "resourcePath": "views\\3ae9f1e9-2c87-498e-86be-fddb00e6c2b8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4331833d-940f-420c-9d72-7aac674ee536",
+            "Value": {
+                "id": "dfd82d76-28fb-4b11-a1bc-1650c51181ca",
+                "resourcePath": "objects\\ob_button_gen_serialNumber\\ob_button_gen_serialNumber.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -425,7 +441,8 @@
         "b5216932-2942-4da5-b09e-fcb925093f5f",
         "186d85a6-5be2-4bc0-86af-db678b4acbb1",
         "479a123a-56ed-463c-8cc8-46dc78d10444",
-        "2e98e4db-ab69-4b26-8190-08e32f27b818"
+        "2e98e4db-ab69-4b26-8190-08e32f27b818",
+        "1969a19c-7c2c-42a1-969d-cb11b6dc2f6a"
     ],
     "tutorial": ""
 }
