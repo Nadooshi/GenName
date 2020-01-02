@@ -3,6 +3,7 @@
 sylldata_path = get_open_filename("*.txt","syll.txt")
 
 if not file_exists(sylldata_path) exit
+generation_mode = 0
 
 var file = file_text_open_read(sylldata_path)
 var ss,s1,s2,n;

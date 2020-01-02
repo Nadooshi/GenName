@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "2e98e4db-ab69-4b26-8190-08e32f27b818",
+            "Value": {
+                "id": "f4d00791-c00d-4b69-86a1-83191d12063e",
+                "resourcePath": "scripts\\sc_lexicon_use\\sc_lexicon_use.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3ae9f1e9-2c87-498e-86be-fddb00e6c2b8",
             "Value": {
                 "id": "051c630f-e09e-4fa4-ac1b-b4ee099eeffe",
@@ -84,6 +92,14 @@
                 "id": "4bfecc2f-dc50-47be-bc4f-1645ffc10794",
                 "resourcePath": "views\\46624359-6b04-436e-9009-d6848cebe007.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "479a123a-56ed-463c-8cc8-46dc78d10444",
+            "Value": {
+                "id": "6551f770-752c-485e-bf39-36f937b54df2",
+                "resourcePath": "scripts\\sc_load_lexicon\\sc_load_lexicon.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -407,7 +423,9 @@
         "95c74887-7c1d-4034-ba4e-84e222939902",
         "bc91ea52-4803-4ab1-a1c8-0ba2e266ddbc",
         "b5216932-2942-4da5-b09e-fcb925093f5f",
-        "186d85a6-5be2-4bc0-86af-db678b4acbb1"
+        "186d85a6-5be2-4bc0-86af-db678b4acbb1",
+        "479a123a-56ed-463c-8cc8-46dc78d10444",
+        "2e98e4db-ab69-4b26-8190-08e32f27b818"
     ],
     "tutorial": ""
 }
